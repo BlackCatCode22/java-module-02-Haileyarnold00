@@ -7,7 +7,11 @@ public class ReversedStrings {
         System.out.println("Say something!");
         int originalStr = scanner.nextInt();
 
-        System.out.println("You said:  " + originalStr);
+        for (int i = 0; < originalStr.length(); i++) {
+            reversedStr = originalStr.charAt(i) + reversedStr;
+        }
+
+        System.out.println("You said:  " + reversedStr);
 
 
 
